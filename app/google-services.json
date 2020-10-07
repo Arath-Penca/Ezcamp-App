@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203167784284",
+    "firebase_url": "https://gizmo-258122.firebaseio.com",
+    "project_id": "secure-gizmo-258122",
+    "storage_bucket": "secure-gizmo-258122.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203167784284:android:7caf51a38c88ddf42e3599",
+        "android_client_info": {
+          "package_name": "com.example.ezcamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203167784284-s3m3rvf1m1dc210vsdop73kl2sm29j6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ezcamp",
+            "certificate_hash": "c9e76b6e31a19776d1b01cb70056b37c81663ce2"
+          }
+        },
+        {
+          "client_id": "203167784284-9ka9jscafgjqqn5djs53qlmg27ogbjk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb8bC-6xMGaNIkGq0cEiAfebM79P7W5yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203167784284-9ka9jscafgjqqn5djs53qlmg27ogbjk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

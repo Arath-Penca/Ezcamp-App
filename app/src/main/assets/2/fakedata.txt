@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "name": "Scottish Traveler RV Park",
+      "latitude": "27.901525",
+      "longitude": "-82.746735",
+      "about": "RV camping area for adults featuring a heated pool, a game room, billiards & various activities.",
+      "weather": "sunny",
+      "type":"RV",
+      "image":"https://lh5.googleusercontent.com/p/AF1QipOASadc_QkX6DKBz7HeZMFJN6xUd6Hpj3kIYUYj=w408-h725-k-no"
+    },
+    {
+      "name": "BSA Camp Soule",
+      "latitude": "28.001070",
+      "longitude": "-82.721311",
+      "about": "Decent place, but not much taken care of",
+      "weather": "Sunny",
+      "type":"Campsite",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipMi8zFxk9vJehF5jrECUgrVGGzu_YMI5Tv_X3gE=w408-h306-k-no"
+    },
+    {
+      "name": "Boca Ciega Millennium Park",
+      "latitude": "27.839372",
+      "longitude": "-82.810489",
+      "about": "Bayside park with bird-watching, wooden walkways, an observation tower, a dog park & a picnic area.",
+      "weather": "Peaceful",
+      "type":"Park",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipMazojyM8EYx7IWtehDGwZ6EErC9nMbYwqqtDE=w408-h306-k-no"
+    },
+    {
+      "name": "Walsingham Park",
+      "latitude": "27.869269",
+      "longitude": "-82.813775",
+      "about": "Featuring 5 habitat areas, such as a reservoir & botanic garden, this park offers fishing & hiking.",
+      "weather": "Windy",
+      "type":"Hiking",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipO5bDSk_4mprr25GnFHIRXGJbSwoQ-WzdI0Df7-=w426-h240-k-no"
+    },
+    {
+      "name": "Washburn Equestrian Area",
+      "latitude": "28.126539",
+      "longitude": "-82.295182",
+      "about": "Beautiful place to hike/camp from one equestrian campground to another campground with non-potable pump water and pit toilet each sites.",
+      "weather": "Cloudy",
+      "type":"Camp",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipOECiKI5t9vM_eHiG8d45Rsmo6OI39gAu_G-bHk=w408-h306-k-no"
+    },
+    {
+      "name": "Rotary's Camp Florida",
+      "latitude": "",
+      "longitude": "",
+      "about": "Great camp, clean, friendly, safe and lots of activities.",
+      "weather": "Cloudy",
+      "type":"Camp",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipM0zDRkx44PwLwnYfRwvMr2GBKg3LnVaqrPe-aW=w408-h725-k-no"
+    },
+    {
+      "name": "Florida Park Services",
+      "latitude": "28.061195",
+      "longitude": "-82.822954",
+      "about": "Diverse island with beaches, pine forests, a hiking trail & resident bald eagles & gopher tortoises.",
+      "weather": "Humid",
+      "type":"Hiking",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipOv33PEz9uY1g1ZD9ZspnYtr8SKwpk-s7qjRlpz=w408-h306-k-no"
+    },
+    {
+      "name": "Eagle Lake Park",
+      "latitude": "27.933169",
+      "longitude": "-82.765968",
+      "about": "Lively scenic area with ponds, boasting a playground, trails & a dog park, plus ample parking.",
+      "weather": "Peaceful",
+      "type":"Park",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipMpKaOmgZ5NMq9WNLxe0LAG7-ocvsoUgz86dvfI=w408-h306-k-no"
+    },
+    {
+      "name": "Jay B. Starkey Wilderness Park",
+      "latitude": "28.262003",
+      "longitude": " -82.631394",
+      "about": "This sizable tract of public land offers opportunities for camping, nature viewing, fishing & more.",
+      "weather": "Windy",
+      "type":"Camp",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipPuz-f7uV71z7sX0LTADBkoL4k2DWWxeRpr4kRg=w408-h544-k-no"
+    },
+    {
+      "name": "Myakka River State Park",
+      "latitude": "27.181477",
+      "longitude": "-82.262416",
+      "about": "37,000-acre park with forests & wetlands, providing river kayaking, wildlife viewing & campsites.",
+      "weather": "Humid",
+      "type":"Camp",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipPD4nPwxwVSPwPIZEsTLNOEy3b3wQPaaC6WNbub=w408-h306-k-no"
+    },
+    {
+      "name": "Hopkins Prairie Campground",
+      "latitude": "29.269858",
+      "longitude": "-81.688533",
+      "about": "A nice quiet campground at the end of Hopkins Prarie run by the National Forest.",
+      "weather": "Windy",
+      "type":"Camp",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipMDX-JrLBm50eSodU8sfUW0MzYjn6fKLrGlbDMS=w408-h306-k-no"
+    },
+    {
+      "name": "John S. Taylor Park",
+      "latitude": "27.904177",
+      "longitude": "-82.803857",
+      "about": "Public green space with a large lake plus a disc golf course, multi-use trail & play equipment.",
+      "weather": "Sunny",
+      "type":"Park",
+	"image":"https://lh5.googleusercontent.com/p/AF1QipMkwQK8xRioIN-tj6DIT03N3QCx-bKNEbZ0VVFK=w408-h306-k-no"
+    }
+
+    
+  ]
+}

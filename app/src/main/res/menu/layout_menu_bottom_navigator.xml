@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <item
+            android:id="@+id/menuNavBottomFeed"
+            android:icon="@drawable/custom_bottom_navigation_bar_colors"
+            android:title="@string/Feed" />
+
+        <item
+            android:id="@+id/menuNavBottomYourCamps"
+            android:icon="@drawable/ic_camps"
+            android:title="@string/Your_camps" />
+
+        <item
+            android:id="@+id/menuNavBottomHome"
+            android:icon="@drawable/ic_search"
+            android:title="@string/Searching_hint" />
+
+</menu>

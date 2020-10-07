@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homefrag"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/RelativeLayoutSearchBar">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/MagnifyGlass"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_search_black_24dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/MagnifyGlass"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:id="@+id/EditTextSearchInput"
+            android:background="@null"
+            android:inputType="text"
+            android:hint="@string/Searching_hint"
+            android:textColorHint="@color/Grey"
+            android:imeOptions="actionSearch"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ProgressBar
+        android:id="@+id/ProgressBarHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    </ProgressBar>
+
+
+
+    <Spinner
+        android:id="@+id/SpinnerRegion"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/custom_spinner_background"
+        android:layout_below="@+id/RelativeLayoutSearchBar"/>
+
+    <Spinner
+        android:id="@+id/SpinnerStates"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/SpinnerRegion"
+        android:background="@drawable/custom_spinner_background" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/RelativeLayoutSearchBar"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/icon_gps"
+        android:src="@drawable/ic_gps_fixed"/>
+
+    <Button
+        android:id="@+id/ButtonFindCamps"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/ic_search_camps"
+        android:layout_alignBottom="@+id/map"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="110dp"
+        android:onClick="onClick"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:gravity="bottom"/>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#24245a</color>
+    <color name="colorPrimaryDark">#1C1C44</color>
+    <color name="colorAccent">#f1625c</color>
+    <color name="textPrimaryColor">#24245a</color>
+
+    <color name="Red">#800000</color>
+    <color name="Blue">#ADD8E6</color>
+    <color name="Pink">#ff91a4</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="Grey">#808080</color>
+    <color name="Green">#29AB87</color>
+    <color name="Light_grey">#E5E4E2</color>
+    <color name="Baby_blue">#28A9FF</color>
+    <color name="Bright_red">#FC0E32</color>
+
+    <!-- Global Colors -->
+    <color name="tool_color">#44B3FF</color>
+
+    <color name="customer_background_color">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_checked="true" android:color="@color/colorAccent" />
+        <item android:state_pressed="true" android:state_enabled="true" android:color="@color/colorAccent" />
+        <item android:color="@color/colorPrimary" />
+        </selector>
+    </color>
+</resources>

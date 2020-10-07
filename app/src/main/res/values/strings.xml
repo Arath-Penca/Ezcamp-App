@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Ezcamp</string>
+
+    <!-- Login DataCampgrounds -->
+    <string name="Name">[No Name]</string>
+    <string name="Email">[No Email]</string>
+    <string name="LogOut">Log Out</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Description_makging_camping_ez">Just tell us what you like and the app does the rest.</string>
+    <string name="Description_for_all_types">We understand that there is many camping styles out there.</string>
+    <string name="Description_aslo_for_casuals">As a new camper, we\'ll teach you the essentials.</string>
+    <string name="Description_for_advanced">Already an expert? We\'ll find the perfect campsite!</string>
+
+    <!-- API Keys -->
+    <string name="Google_Maps_API_Key">AIzaSyCipvwwt74XO9YA4qLEVw6cZKt2PyOQGYQ</string>
+
+    <!-- Survey Questions -->
+    <string name="Starter_survey_title">Starter Survey</string>
+
+    <string name="Question_CampingExperience">How experienced are you?</string>
+    <string name="Answer_Beginner">Level 1 - Beginner</string>
+    <string name="Answer_Intermediate">Level 2 - Intermediate</string>
+    <string name="Answer_Expert">Level 3 - Expert</string>
+
+    <string name="Question_KindOfCamper">What kind of camper are you?</string>
+    <string name="Answer_SurvivalCamping">Survival Camping</string>
+    <string name="Answer_CarCamping">Car Camping</string>
+    <string name="Answer_BicycleCamping">Bicycle Camping</string>
+    <string name="Answer_AdventureCamping">Adventure Camping</string>
+    <string name="Answer_BackyardCamping">Backyard Camping</string>
+    <string name="Answer_TentCamping">Tent Camping</string>
+
+    <string name="Question_HowFarToTravel">What is your ideal camp distance?</string>
+    <string name="Miles_abbreviation">Mi: </string>
+    <string name="Distance_Min">Min</string>
+    <string name="Distance_Max">Max</string>
+    <string name="Local">Local</string>
+    <string name="North_east">North East</string>
+    <string name="South_east">South East</string>
+    <string name="South_west">South West</string>
+    <string name="Midwest">Midwest</string>
+    <string name="West">West</string>
+    <string name="AnswerDisplayed_InMiles">Miles:</string>
+
+    <string name="Button_ConfirmQuestionnaire">Continue</string>
+
+
+    <string name="Placeholder_question">Question</string>
+    <string name="Placer_holder1">Choice 1</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- Your Camps section -->
+    <string name="Info">Info</string>
+    <string name="Edit">Edit</string>
+
+    <!-- Camp View -->
+    <string name="Add_camp">Add Camp</string>
+    <string name="Description">Description </string>
+    <string name="Weather">Weather </string>
+
+
+
+    <!-- Menu Section -->
+    <string name="Menu_name">Menu</string>
+    <string name="Home">Home</string>
+    <string name="Feed">Recommended</string>
+    <string name="Your_camps">My Camps</string>
+    <string name="Settings">Settings</string>
+    <string name="Account">Account</string>
+
+    <string name="Questionnaire">Questionnaire</string>
+    <string name="Extras">Other</string>
+    <string name="Navigation_drawer_open">Open Drawer</string>
+    <string name="Navigation_drawer_close">Close Drawer</string>
+    <string name="Searching_hint">Find</string>
+    <string name="Find_perfect_camp">Find Perfect Camp</string>
+    <string name="Refresh">Refresh</string>
+
+    <!-- Searching Section -->
+    <string name="Note_1">this somehow worked, lol</string>
+
+    <string-array name="Region">
+        <item>International</item>
+        <item>State</item>
+        <item>Local</item>
+    </string-array>
+
+
+    <!-- Dev NOtes -->
+    <string-array name="States">
+        <item>All</item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+
+
+</resources>

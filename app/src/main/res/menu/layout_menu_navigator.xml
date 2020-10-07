@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuNavHome"
+            android:icon="@drawable/ic_home"
+            android:title="@string/Home" />
+        <item
+            android:id="@+id/menuNavFeed"
+            android:icon="@drawable/ic_feed"
+            android:title="@string/Feed" />
+        <item
+            android:id="@+id/menuNavYourCamps"
+            android:icon="@drawable/ic_your_camps"
+            android:title="@string/Your_camps" />
+        <item
+            android:id="@+id/menuNavSettings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/Menu_settings" />
+    </group>
+
+
+    <item android:title="@string/Extras">
+        <menu>
+
+            <item
+                android:id="@+id/menuQuestionnaire"
+                android:icon="@drawable/ic_questionnaire"
+                android:title="@string/Questionnaire" />
+            <item
+            android:id="@+id/menuLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/LogOut" />
+        </menu>
+    </item>-->
+
+
+
+    <item
+        android:id="@+id/menuNavAccount"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/Account" />
+    <item
+        android:id="@+id/menuNavSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/Settings"/>
+
+    <item
+        android:id="@+id/menuNavQuestionnaire"
+        android:icon="@drawable/ic_questionnaire"
+        android:title="@string/Questionnaire" />
+
+    <item
+        android:id="@+id/menuNavLogout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/LogOut" />
+
+
+</menu>

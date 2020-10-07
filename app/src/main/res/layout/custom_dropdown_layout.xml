@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutDropDown"
+    android:orientation="horizontal"
+    android:background="@color/White"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/ImageViewDropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:tint="@color/colorAccent"
+        android:src="@drawable/ic_dropdown"/>
+
+    <TextView
+        android:id="@+id/TextViewDropDownDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testtext"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:padding="10dp"/>
+
+
+</LinearLayout>

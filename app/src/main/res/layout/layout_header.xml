@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom">
+
+
+
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingLeft="20dp"
+        android:src="@drawable/ic_warning_placeholder" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:text="@string/Name"/>
+
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp"
+        android:textColor="@color/White"
+        android:text="@string/Email"/>
+
+
+    <Button
+        android:id="@+id/ButtonProfile"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="2dp"
+        android:drawableLeft="@drawable/ic_profile"
+        android:drawableStart="@drawable/ic_profile"
+        android:layout_gravity="start"
+        android:textAlignment="textStart"
+        android:background="@drawable/border_accent_color"
+        android:text="@string/Account"
+        android:onClick="onClick"
+        android:textColor="@color/White">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonSettings"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="2dp"
+        android:drawableLeft="@drawable/ic_settings"
+        android:drawableStart="@drawable/ic_settings"
+        android:layout_gravity="start"
+        android:textAlignment="textStart"
+        android:background="@drawable/border_accent_color"
+        android:text="@string/Settings"
+        android:onClick="onClick"
+        android:textColor="@color/White"/>
+
+    <Button
+        android:id="@+id/ButtonQuestionnaire"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="2dp"
+        android:drawableLeft="@drawable/ic_questionnaire"
+        android:drawableStart="@drawable/ic_questionnaire"
+        android:layout_gravity="start"
+        android:textAlignment="textStart"
+        android:background="@drawable/border_accent_color"
+        android:text="@string/Questionnaire"
+        android:onClick="onClick"
+        android:textColor="@color/White"/>
+
+
+    <Button
+        android:id="@+id/ButtonLogout"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="2dp"
+        android:drawableLeft="@drawable/ic_logout"
+        android:drawableStart="@drawable/ic_logout"
+        android:layout_gravity="start"
+        android:textAlignment="textStart"
+        android:background="@drawable/border_accent_color"
+        android:text="@string/LogOut"
+        android:onClick="onClick"
+        android:textColor="@color/White"/>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
